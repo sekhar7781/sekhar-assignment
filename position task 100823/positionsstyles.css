@@ -1,0 +1,30 @@
+.static{
+  background-color: aqua;
+  position :static;
+  width: 450px;
+  height: 200px;
+}
+.relative{
+  background-color: red;
+  position :relative;
+  width: 450px;
+  height: 200px;
+  left: 500px;
+}
+.absolute{
+  background-color: violet;
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  left: 1050px;
+}
+
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 100px;
+  text-align: center;
+  border: 2px solid green;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  padding-left: 30px;
+}

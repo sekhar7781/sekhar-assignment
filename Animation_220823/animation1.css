@@ -1,0 +1,45 @@
+.box{
+    width: 1450px;
+    height: 675px;
+    border: 10px solid grey;
+    position: relative;
+}
+.container{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+@keyframes moving {
+0%{
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+25%{
+    top: 575px;
+    left: 0px;
+    background-color: blue;
+} 
+50%{
+    left:1350px;
+    top:575px;
+    background-color: black;
+}
+75%{
+    top:0;
+    left:1350px;
+    background-color: orange;
+}
+100%{
+    top:0;
+    left:0;
+    background-color: green;
+}
+}
